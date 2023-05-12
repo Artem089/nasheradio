@@ -1,0 +1,47 @@
+/* .music__list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 -15px;
+} */
+
+.music__item {
+    display: flex;
+    margin: 1rem 0;
+    /* width: calc(20% - 30px); */
+    flex-direction: column;
+}
+
+.music__cover {
+    position: relative;
+    margin-bottom: 1rem;
+    background: #f1f1f1;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.music__info {
+    font-size: .8rem;
+    background-color: none;
+}
+
+.music__executor {
+    font-weight: 600;
+}
+
+.music__img{
+    width: 100%;
+}
+
+.sidebar{
+    flex: 0 0 300px !important;
+    width: 300px;
+    box-sizing: content-box;
+}
+
+.music__track{
+    color: black;
+    text-decoration: none;
+}

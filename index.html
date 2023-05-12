@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Общие стили -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Бутсрап -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+	<!-- Шрифты -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+	<!-- JQuery -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css" />
+
+	<!-- Слайдер Swiper -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<!-- Подключение стилей Slick Slider -->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="shadow-lg">
+		<div class="pb-5 container">
+			<div class="row justify-content-center">
+				<div class="col-10 col-lg-8">
+					<div class="d-flex flex-column flex-md-row justify-content-around align-items-center py-3">
+						<div>
+							<a href="index.html"><img src="img/Logo.svg" alt="Логотип" /></a>
+						</div>
+						<div class="m-3 flex-grow-1 w-100">
+							<audio controls class="w-100" style="min-width: 120px">
+								<source src="http://nashe1.hostingradio.ru/nashe-128.mp3" type="audio/mpeg" />
+								Ваш браузер не поддерживает проигрывание аудио.
+							</audio>
+						</div>
+						<div>
+							<img src="img/16+.svg" alt="" />
+						</div>
+					</div>
+					<hr />
+					<div class="row row-cols-sm-2 row-cols-1 row-cols-lg-auto justify-content-around">
+						<div class="nav-item text-center my-1">
+							<a class="text-decoration-none text-dark fs-5" href="index.html">Главная</a>
+						</div>
+						<div class="nav-item text-center my-1">
+							<a class="text-decoration-none text-dark fs-5" href="musik.html">Музыка</a>
+						</div>
+						<div class="nav-item text-center my-1">
+							<a class="text-decoration-none text-dark fs-5" href="novosti.html">Новости</a>
+						</div>
+						<div class="nav-item text-center my-1">
+							<a class="text-decoration-none text-dark fs-5" href="php/podcasts.php">Подкасты</a>
+						</div>
+						<div class="nav-item text-center my-1">
+							<a class="text-decoration-none text-dark fs-5" href="vedushie.html">Ведущие</a>
+						</div>
+						<div class="nav-item text-center my-1">
+							<a class="text-decoration-none text-dark fs-5 d-block" href="php/register.php">Регистрация</a>
+						</div>
+						<div class="nav-item text-center my-1">
+							<a class="text-decoration-none text-dark fs-5 d-block" href="php/login.php">Авторизация</a>
+						</div>
+					</div>
+					<hr />
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container py-5 w-75">
+		<div class="image-container">
+			<img src="img/Slider1.png" alt="Image Description" />
+			<div class="image-text">
+				<a class="fs-5 text-decoration-none text-white" href="">САМЫЕ СКАНДАЛЬНЫЕ ФИЛЬМЫ В ИСТОРИИ
+					КИНЕМАТОГРАФА</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="section__title" id="novosti">
+		<a href="#" class="section__title-text text-uppercase text-black-50 text-decoration-none">Новости</a>
+	</div>
+
+	<div class="container py-5">
+		<div class="row justify-content-center">
+			<div class="col-12 col-lg-10">
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col d-flex justify-content-center">
+						<div class="card h-100 shadow-lg">
+							<img src="img/card1.jpg" class="card-img-top" alt="..." />
+							<div class="card-body p-2">
+								<small class="fw-bold px-3"> 20 мар.</small>
+								<h5 class="card-title fw-bold fs-3 pt-2 px-3">«Нэил Шери» выпустили клип «Пускай»</h5>
+								<div class="card__tegi pt-2">
+									<small>
+										<ul class="list-unstyled d-flex flex-wrap nav-item">
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Звёзды</a>
+											</li>
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Фильмы</a>
+											</li>
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Сериалы</a>
+											</li>
+										</ul>
+									</small>
+								</div>
+								<hr />
+								<div class="soc__seti px-3">
+									<a href=""><img class="" src="img/Wk.svg" alt="" /></a>
+									<a class="mx-4" href=""><img class="" src="img/Twitter.svg" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col d-flex justify-content-center">
+						<div class="card h-100 shadow-lg">
+							<img src="img/card2.jpg" class="card-img-top" alt="..." />
+							<div class="card-body p-2">
+								<small class="fw-bold px-3"> 20 мар.</small>
+								<h5 class="card-title fw-bold fs-3 pt-2 px-3">«Нэил Шери» выпустили клип «Пускай»</h5>
+								<div class="card__tegi pt-2">
+									<small>
+										<ul class="list-unstyled d-flex flex-wrap nav-item">
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Звёзды</a>
+											</li>
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Фильмы</a>
+											</li>
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Сериалы</a>
+											</li>
+										</ul>
+									</small>
+								</div>
+								<hr />
+								<div class="soc__seti px-3">
+									<a href=""><img class="" src="img/Wk.svg" alt="" /></a>
+									<a class="mx-4" href=""><img class="" src="img/Twitter.svg" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col d-flex justify-content-center">
+						<div class="card h-100 shadow-lg">
+							<img src="img/card3.jpg" class="card-img-top" alt="..." />
+							<div class="card-body p-2">
+								<small class="fw-bold px-3"> 20 мар.</small>
+								<h5 class="card-title fw-bold fs-3 pt-2 px-3">Фильмы, которые лишат вас дара речи</h5>
+								<div class="card__tegi pt-2">
+									<small>
+										<ul class="list-unstyled d-flex flex-wrap nav-item">
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Звёзды</a>
+											</li>
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Фильмы</a>
+											</li>
+											<li class="nav-link">
+												<a class="text-decoration-none py-1 px-3 text-dark" href="">Король и Шут
+												</a>
+											</li>
+										</ul>
+									</small>
+								</div>
+								<hr />
+								<div class="soc__seti px-3">
+									<a href=""><img class="" src="img/Wk.svg" alt="" /></a>
+									<a class="mx-4" href=""><img class="" src="img/Twitter.svg" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="loading d-flex justify-content-center flex-column align-items-center py-5">
+					<a class="text-decoration-none text-dark fs-5" href="novosti.html">Все новости</a>
+					<a class="mt-2" href="novosti.html"><img src="img/loading.svg" alt="" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section__title" id="podcast">
+		<a href="podcast.html"
+			class="section__title-text text-uppercase text-black-50 text-decoration-none">Подкасты</a>
+	</div>
+
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-sm-10 col-lg-8">
+				<div class="slider">
+					<div>
+						<a href="#"><img src="img/Подкаст1.jpg" alt="" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/Подкаст2.jpg" alt="" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/Подкаст3.jpg" alt="" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/Подкаст4.jpg" alt="" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/Подкаст1.jpg" alt="" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/Подкаст2.jpg" alt="" /></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/Подкаст3.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="loading d-flex justify-content-center flex-column align-items-center py-5">
+					<a class="text-decoration-none text-dark fs-5" href="podcast.html">Все подкасты</a>
+					<a class="mt-2" href="podcast.html"><img src="img/loading.svg" alt="" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section__title" id="musika">
+		<a href="musik.html" class="section__title-text text-uppercase text-black-50 text-decoration-none">Музыка</a>
+	</div>
+
+	<div class="container my-5">
+		<div class="row justify-content-center">
+			<div class="col-12 col-xl-10 col-md-11">
+				<div class="row">
+					<div class="col-12 col-xl-8">
+						<div class="block__music d-flex flex-column">
+							<div class="section">
+								<div class="block__music_up row row-cols-sm-1 justify-content-around mb-3">
+									<div class="music mx-2 col-auto">
+										<a href="musik.html" class="text-decoration-none text-dark">
+											<img class="img-fluid" src="img/music1.png" alt="" />
+											<h1 class="fw-bold fs-4 mb-0 mt-1">Лепесток</h1>
+											<p class="music__text">MIA BOYKA, T-killah</p>
+										</a>
+									</div>
+									<div class="music mx-2 col-auto">
+										<a href="musik.html" class="text-decoration-none text-dark">
+											<img class="img-fluid" src="img/music3.png" alt="" />
+											<h1 class="fw-bold fs-4 mb-0 mt-1">WIFI</h1>
+											<p class="music__text">Ольга Бузова</p>
+										</a>
+									</div>
+									<div class="music mx-2 col-auto">
+										<a href="musik.html" class="text-decoration-none text-dark">
+											<img class="img-fluid" src="img/music2.png" alt="" />
+											<h1 class="fw-bold fs-4 mb-0 mt-1">ASPHALT 8</h1>
+											<p class="music__text">MACAN</p>
+										</a>
+									</div>
+									<div class="music mx-2 col-auto">
+										<a href="musik.html" class="text-decoration-none text-dark">
+											<img class="img-fluid" src="img/music4.png" alt="" />
+											<h1 class="fw-bold fs-4 mb-0 mt-1">По глазам</h1>
+											<p class="music__text">SLAVA MARLOW</p>
+										</a>
+									</div>
+									<div class="music mx-2 col-auto">
+										<a href="musik.html" class="text-decoration-none text-dark">
+											<img class="img-fluid" src="img/music5.png" alt="" />
+											<h1 class="fw-bold fs-4 mb-0 mt-1">Гладиатор</h1>
+											<p class="music__text">Дима Билан</p>
+										</a>
+									</div>
+									<div class="music mx-2 col-auto">
+										<a href="musik.html" class="text-decoration-none text-dark">
+											<img class="img-fluid" src="img/music6.png" alt="" />
+											<h1 class="fw-bold fs-4 mb-0 mt-1">Снег</h1>
+											<p class="music__text">Филипп Киркоров</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="loading d-flex justify-content-center flex-column align-items-center py-3">
+								<a class="text-decoration-none text-dark fs-5" href="musik.html">Вся музыка</a>
+								<a class="mt-2" href="musik.html"><img src="img/loading.svg" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-4">
+						<div class="block__TOP">
+							<div class="section_TOP">
+								<div class="block__TOP p-3 shadow-lg d-flex flex-column">
+									<h1 class="m-auto">ЧАРТ</h1>
+									<div class="row row-cols-1 row-cols-md-2 row-cols-xl-1">
+										<div class="block__chart d-flex align-items-center my-3">
+											<p class="fs-1 mb-0">1</p>
+											<a href="musik.html"><img class="mx-3" src="img/chart1.png" alt="" /></a>
+											<div class="chart__text">
+												<a href="musik.html">
+													<h1 class="fs-4 mb-0 text-dark">ЗА ДЕНЬГИ ДА</h1>
+												</a>
+												<a href="musik.html">
+													<p class="fs-6 mb-0 text-dark">INSTASAMKA</p>
+												</a>
+											</div>
+										</div>
+										<div class="block__chart d-flex align-items-center my-3">
+											<p class="fs-1 mb-0">2</p>
+											<a href="musik.html"><img class="mx-3" src="img/chart2.png" alt="" /></a>
+											<div class="chart__text">
+												<a href="musik.html">
+													<h1 class="fs-4 mb-0 text-dark">Кукла колдуна</h1>
+												</a>
+												<a href="musik.html">
+													<p class="fs-6 mb-0 text-dark">Король и Шут</p>
+												</a>
+											</div>
+										</div>
+										<div class="block__chart d-flex align-items-center my-3">
+											<p class="fs-1 mb-0">3</p>
+											<a href="musik.html"><img class="mx-3" src="img/chart3.png" alt="" /></a>
+											<div class="chart__text">
+												<a href="musik.html">
+													<h1 class="fs-4 mb-0 text-dark">Лесник</h1>
+												</a>
+												<a href="musik.html">
+													<p class="fs-6 mb-0 text-dark">Король и Шут</p>
+												</a>
+											</div>
+										</div>
+										<div class="block__chart d-flex align-items-center my-3">
+											<p class="fs-1 mb-0">4</p>
+											<a href="musik.html"><img class="mx-3" src="img/chart4.png" alt="" /></a>
+											<div class="chart__text">
+												<a href="musik.html">
+													<h1 class="fs-4 mb-0 text-dark">ASPHALT 8</h1>
+												</a>
+												<a href="musik.html">
+													<p class="fs-6 mb-0 text-dark">MACAN</p>
+												</a>
+											</div>
+										</div>
+										<div class="block__chart d-flex align-items-center my-3">
+											<p class="fs-1 mb-0">5</p>
+											<a href="musik.html"><img class="mx-3" src="img/chart5.png" alt="" /></a>
+											<div class="chart__text">
+												<a href="musik.html">
+													<h1 class="fs-4 mb-0 text-dark">Ножевой</h1>
+												</a>
+												<a href="musik.html">
+													<p class="fs-6 mb-0 text-dark">A.V.G, TATAR</p>
+												</a>
+											</div>
+										</div>
+										<div class="block__chart d-flex align-items-center my-3">
+											<p class="fs-1 mb-0">6</p>
+											<a href="musik.html"><img class="mx-3" src="img/chart6.png" alt="" /></a>
+											<div class="chart__text">
+												<a href="musik.html">
+													<h1 class="fs-4 mb-0 text-dark">Дурак и молния</h1>
+												</a>
+												<a href="musik.html">
+													<p class="fs-6 mb-0 text-dark">Король и Шут</p>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section__title" id="vedushie">
+		<a href="vedushie.html"
+			class="section__title-text text-uppercase text-black-50 text-decoration-none">Ведущие</a>
+	</div>
+
+	<div class="container py-5">
+		<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around">
+			<div class="col d-flex justify-content-center">
+				<div class="card card__chart">
+					<img src="img/Vital.png" class="img-fluid" alt="" />
+					<div class="card__text px-3 pt-2 fs-4">
+						<a class="text-dark" href="vedushie.html">Витал</a>
+					</div>
+					<div class="soc__seti__vedushie px-3 py-1">
+						<a href=""><img class="" src="img/Wk2.svg" alt="" /></a>
+						<a class="mx-4" href=""><img class="" src="img/TG.svg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center">
+				<div class="card card__chart">
+					<img src="img/Rozalina.png" class="img-fluid" alt="" />
+					<div class="card__text px-3 pt-2 fs-4">
+						<a class="text-dark" href="vedushie.html">Розалина</a>
+					</div>
+					<div class="soc__seti__vedushie px-3 py-1">
+						<a href=""><img class="" src="img/Wk2.svg" alt="" /></a>
+						<a class="mx-4" href=""><img class="" src="img/TG.svg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center">
+				<div class="card card__chart">
+					<img src="img/Serkan.png" class="img-fluid" alt="" />
+					<div class="card__text px-3 pt-2 fs-4">
+						<a class="text-dark" href="vedushie.html">Серкан</a>
+					</div>
+					<div class="soc__seti__vedushie px-3 py-1">
+						<a href=""><img class="" src="img/Wk2.svg" alt="" /></a>
+						<a class="mx-4" href=""><img class="" src="img/TG.svg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="loading d-flex justify-content-center flex-column align-items-center py-4">
+			<a class="text-decoration-none text-dark fs-5" href="vedushie.html">Все ведущие</a>
+			<a class="mt-2" href="vedushie.html"><img src="img/loading.svg" alt="" /></a>
+		</div>
+	</div>
+
+	<div class="container w-50 mb-5">
+		<hr />
+		<div class="row justify-content-around align-items-center">
+			<div class="col-auto">
+				<a class="text-decoration-none text-dark fs-5" href="index.html">Главная</a>
+			</div>
+			<div class="col-auto">
+				<a class="text-decoration-none text-dark fs-5" href="musik.html">Музыка</a>
+			</div>
+			<div class="col-auto">
+				<a class="text-decoration-none text-dark fs-5" href="novosti.html">Новости</a>
+			</div>
+			<div class="col-auto">
+				<a class="text-decoration-none text-dark fs-5" href="podcast.html">Подкасты</a>
+			</div>
+			<div class="col-auto">
+				<a class="text-decoration-none text-dark fs-5" href="vedushie.html">Ведущие</a>
+			</div>
+			<div class="col-auto">
+				<a class="text-decoration-none text-dark fs-5 d-block" href="php/register.php">Регистрация</a>
+			</div>
+			<div class="col-auto">
+				<a class="text-decoration-none text-dark fs-5 d-block" href="php/login.php">Авторизация</a>
+			</div>
+		</div>
+		<hr />
+	</div>
+
+	<div class="footer">
+		<div class="container w-100 p-5">
+			<p>
+				*В аудиозаписях возможно упоминание Инстаграм. Компания Meta Platforms Inc., владеющая социальными
+				сетями
+				Instagram, по решению суда от 21.03.2022 признана экстремистской организацией, ее деятельность на
+				территории
+				России запрещена.
+			</p>
+			<p>© Все права защищены</p>
+			<p>
+				По всем вопросам размещения рекламы на НАШЕ радио: +7 (921) 123 45-67 Адрес электронной почты для
+				отправления
+				досудебной претензии по вопросам нарушения авторских и смежных прав: nasheradio@mail.ru
+			</p>
+			<p>Политика конфиденциальности.</p>
+		</div>
+	</div>
+
+	<!-- Бутсрап -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+
+	<!-- Слайдер Swiper -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<!-- Подключение JavaScript Slick Slider -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
